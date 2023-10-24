@@ -16,8 +16,11 @@ As described in the brief overview of my project, the data I will be using is pr
 If we talk about the project structure, we have the following files/folders as given below
 
 First we have our resources folder named "Starter_code" in which is enclosed a "data" folder  conatining all the six CSV files that we will be using.
+
 Then we have a "sql-challenge" folder which contains a "README.md" file and a folder called "EmployeeSQL"
-The "EmployeeSQL" folder further conatins the major files of our project namely the Employee_schema.sql,Employees_Table_PK_FK.sql, Employee_db_ERD_diagram.png & Data_Analysis_Queries.sql
+
+The "EmployeeSQL" folder further conatins the major files of our project namely the Employee_schema.sql,Employees_Table_PK_FK.sql, 
+Employee_db_ERD_diagram.png & Data_Analysis_Queries.sql
 
 ## Database Schema/Data Modelling
 As the first stepping stone to my project I inspected all the CSV files thoroughly and then created an Entity Relationship Diagram from the tables. To do so I made use of an efficient online datadebase diagram drawing tool called  the "QuickDBD" using the below schema:
@@ -29,8 +32,27 @@ As evident from the above schema, I tried to assign the datatype, primary keys, 
 Insert ERD
 
 ## Data Engineering
-I then moved on to import the 
+I then moved on to import each CSV file into its corresponding SQL table. For this Iused the PgAdmin 4. I was able to successfully load all the CSV files there. Below are a few screenshots confirming the same.
 
+Insert screenshots of imported tables.
+
+
+## Data Analysis
+
+After all the CSV files were correctly imported, I proceeded to write queries with regard to multiple aspects such as employee salary, hiring trend, managerial structure, department assignment, employee search, department-specific analysis, multiple-department analysis (Sales and Development) as part of the data analysis as required. Below are the screenshots of a few queries and their results as I ran them.
+
+Inset 2-3 query codes with results
+
+
+## Analysis Output
+
+
+
+
+
+
+
+## Conclusions
 
 
 
