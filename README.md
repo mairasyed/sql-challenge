@@ -45,17 +45,48 @@ Inset 2-3 query codes with results
 
 
 ## Analysis Output
+       
+       A brief overwiew of the analysis output/key findings is as under:
+
+# Salary Analysis:
+
+This output shows a list of employee information along with each employees salary. We may be able to deduce from here that the salaries of employees differ probably based on multiple factors including their specific role, expertise, experience they carry and their overall performance.
+
+# Hiring Trends:
+
+The current query generates a list of employees hired in 1986 only. This can uncover the hiring trend for the year. In our case 1000 employees were being hired overall by the company in the year 1986.Analyzing hiring trends over time may help identify patterns in workforce expansion or changes in the organization's recruitment strategies.
+
+# Managerial Structure:
+
+This query returns a list of department managers and their corresponding departments. This might be of great use as it will clarify who leads which department and one can hence better understand the chain of command.
 
 
+# Department Assignments:
+
+The fourth query provides information about which employees belong to which departments. This data can be of immense value for keeping a track of employee roles, responsibilities, and department-specific analysis.
+
+# Employee Search:
+
+The fifth query allows us to look for specific employees based on their first name and the initial letter of their last name. This can be useful for finding individuals with specific characteristics, which might prove useful for HR or administrative purposes.
+
+# Department-Specific Analysis:
+
+The sixth query takes into account the Sales department only, providing an insight as to how many employees are working within that specific department. We can assess the size and composition of the Sales department through this result.
 
 
+# Multiple Department Analysis:
+
+The seventh query lets us analyze employees across both the Sales and Development departments. This may enable us to draw comparisons between the two departments as well as help us look into shared roles or responsibilities between these departments.
+
+# Last Name Frequency:
+
+The last query highlights the frequency of last names among employees. A high frequency of a particular last name may suggest common surnames among employees, while lower frequencies indicate diversity.
 
 
 
 ## Conclusions
 
-
-
+In this challenge, we've extracted some valuable key insights making use of the available employee data. These insights help us understand the workforce and organizational dynamics in a better way and make more informed decisions for the company with regard to these areas in future.
 
 
 
